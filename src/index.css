@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply font-medium    border-2  py-3 px-4 md:px-6 lg:px-8 transition rounded-md shadow-md;
+  }
+  .btn-red {
+    @apply text-white bg-soft-red hover:bg-white  hover:text-soft-red  border-soft-red;
+  }
+  .btn-blue {
+    @apply text-white bg-soft-blue hover:bg-white  hover:text-soft-blue  border-soft-blue;
+  }
+  .btn-gray {
+    @apply bg-gray-100 hover:bg-white  text-very-dark-blue border-gray-100 hover:border-very-dark-blue;
+  }
+}
